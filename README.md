@@ -113,6 +113,10 @@ $ pass otp uri -q totp-secret
 git clone https://github.com/tadfisher/pass-otp
 cd pass-otp
 sudo make install
+;; On Mac:
+;; sudo make install PREFIX=/usr/local 
+;; export PASSWORD_STORE_ENABLE_EXTENSIONS=true
+;; export PASSWORD_STORE_EXTENSIONS_DIR=/usr/local/lib/password-store/extensions
 ```
 
 ### Arch Linux
